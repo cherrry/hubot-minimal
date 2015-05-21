@@ -2,13 +2,15 @@
 
 ## Create Hubot
 
-1. `git clone https://github.com/cherrry/hubot-minimal.git`
+1. `git clone https://github.com/cherrry/hubot-minimal.git` in Cloud9's terminal.
 
-2. Edit hubot's name and slack token in `bin/hubot`
+2. Run `cd hubot-minimal`
 
-3. Run `./bin/hubot --adapter slack` in Cloud9's terminal.
+3. Edit hubot's name and slack token in `bin/hubot`
 
-4. Say `hello` in slack, ta da!
+4. Run `./bin/hubot --adapter slack`
+
+5. Say `hello` in slack, ta da!
 
 ## Save Your Configuration
 
