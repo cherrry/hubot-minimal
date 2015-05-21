@@ -5,7 +5,7 @@ module.exports = function (robot) {
     // say 'hello world' when hear someone say hello
     robot.hear(/hello/i, function (res) {
         // send a message to the room receive this message
-        res.send('hello world')
+        res.send('world')
     })
 
     /*
@@ -19,8 +19,7 @@ module.exports = function (robot) {
     /*
     // alternate response when hearing sudo together
     robot.respond(/sudo make me a sandwich/i, function (res) {
-        res.reply('ok')
+        res.reply('okay')
     })
     */
-
 }
