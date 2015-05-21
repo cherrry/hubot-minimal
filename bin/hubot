@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+npm install
+export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+
+# change your hubot's name and slack token
+export HUBOT_NAME="hubot"
+export HUBOT_SLACK_TOKEN="xoxb-1234-5678-91011-00e4dd"
+
+exec node_modules/.bin/hubot --name "$HUBOT_NAME" "$@"
