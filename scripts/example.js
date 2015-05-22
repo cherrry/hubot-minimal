@@ -30,7 +30,7 @@ module.exports = function (robot) {
         'hello',
         '...',
         'I refuse :angry:'
-    ];
+    ]
     robot.respond('say something', function (res) {
         // choose on of the response from `randomResponse`
         var message = res.random(randomResponse)
