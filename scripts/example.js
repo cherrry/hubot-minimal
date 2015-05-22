@@ -22,4 +22,20 @@ module.exports = function (robot) {
         res.reply('okay')
     })
     */
+
+    /*
+    // define some random responses
+    var randomResponse = [
+        'something',
+        'hello',
+        '...',
+        'I refuse :angry:'
+    ];
+    robot.respond('say something', function (res) {
+        // choose on of the response from `randomResponse`
+        var response = res.random(randomResponse)
+        // send it back
+        res.send(response)
+    })
+    */
 }
