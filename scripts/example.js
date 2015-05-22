@@ -33,9 +33,9 @@ module.exports = function (robot) {
     ];
     robot.respond('say something', function (res) {
         // choose on of the response from `randomResponse`
-        var response = res.random(randomResponse)
+        var message = res.random(randomResponse)
         // send it back
-        res.send(response)
+        res.send(message)
     })
     */
 }
